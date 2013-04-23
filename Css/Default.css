@@ -1,0 +1,291 @@
+﻿html,body,p,div,img,h1,h2,h3,h4,li,ul,ol,dl,dd,dt,form,table,td,tr{ margin:0px; padding:0px; border:0px; border-collapse:separate; border-spacing:0px; }  
+input,select{ margin:0; padding:0; }
+
+
+html, body {
+ height: 99.5%;
+ }
+ 
+ 
+body {
+	background-color: #9AA3B2;
+	
+}
+
+#wrapper
+{
+	min-height:100%;
+	margin-bottom:-128px;
+	position:relative;
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+}
+
+
+#DivHeader
+{
+	width:980px;margin:0px auto;	
+
+
+}
+
+#DivMenu {
+	background:black;
+	height:40px;
+	color:white;	
+	z-index:100	;
+	background:gray;
+	margin-top:-350px;
+	filter: alpha(opacity=80);
+	opacity:.8;
+				}
+
+#DivMenuContrastBackground
+{
+	height:40px;
+	background-color:black;
+	width:100%;
+	z-index:2;
+		
+}		
+
+.transparent {        zoom: 1;        filter: alpha(opacity=50);        opacity: 0.5;}
+
+#DivMenu ul 
+{
+	padding-left:500px;
+	padding-top:5px;
+	
+}
+
+#DivMenu ul li {
+	font-family:Tahoma;
+	font-size:18px;		
+	list-style-type: none;
+	list-style-position:inherit;
+	display:inline-block;	
+	margin-left:10px;	
+	
+
+	
+}
+
+#DivMenu ul li a {
+	
+	text-decoration:none;
+	}
+
+
+#DivMenu ul li a:hover {
+	color:#F6FF6E;
+	text-decoration:none;
+	}
+	
+.SelectedItem
+{
+	color:#004984;		
+}
+
+.NonSelectedItem
+{
+	color:white;
+}
+
+
+#DivImageFeather
+{
+	background-image:url('Images/Feather.jpg');
+	height:350px;
+	margin:0px auto;	
+	
+}
+
+#DivImageServices
+{
+	background-image:url('Images/Servicios.jpg');  
+	height:350px;
+	margin:0px auto;	
+}
+
+#DivImageProducts
+{
+	background-image:url('Images/Productos.jpg');  
+	height:350px;
+	margin-top:0px;
+}
+
+
+#DivImageContacto
+{
+	background-image:url('Images/Contacto.jpg');  
+	height:350px;
+	margin:0px auto;	
+}
+
+
+#ImageLegend
+{
+	font-family:Tahoma;
+	font-size:26px;
+	Color:white;
+	text-align:right;
+	padding-right:50px;
+	padding-top:350px;
+}
+
+#ImageLegendContrast
+{
+	font-family:Tahoma;
+	font-size:26px;
+	Color:white;
+	text-align:right;
+	padding-right:50px;
+	padding-top:100px;
+	
+}
+
+
+
+#DivContent
+{
+	background-color:white;
+	width:980px;
+	
+		margin:0px auto;	
+    	}
+.clearfooter {  
+ height: 128px;
+clear: both;
+}
+
+#DivContent H2
+{
+	font-family:"Century Gothic";
+	font-size:26px;
+	padding:20px 0px 0px 150px;
+    text-align:left;
+	color:#009BDB
+}
+
+#DivContentH2Separtor
+{
+	background:#009BDB;
+	height:1px;
+	width:350px;
+	
+}
+
+
+#DivContent p
+{
+	padding:0px 35px 0px 100px;
+}
+#ContentSeparator
+{
+	background-color:#E3E5E4;
+	height:16px;
+	margin:0px;
+	margin-top:300px;
+}
+
+#GraySeparator
+{
+	background-color:#ABAFB2;
+	height:.5px;
+}
+
+#DivFooter 
+{
+		margin:0px auto;	
+	position: relative;
+	width:100%;
+	background-color:#E3E5E4;	
+	height:128px;
+	background-image:url('Images/bizpark.png');
+	background-repeat:no-repeat;
+	background-position:20px 20px;
+	width:980px;
+	
+}
+
+#DivFooter ul
+{
+	padding-left:640px;
+	padding-top:20px;
+}
+
+#DivFooter ul li
+{	
+	list-style-type: none;
+	list-style-position:inherit;
+	display:inline;
+	margin-left:10px;
+}
+
+#DivFooter ul li a
+{	
+	color:#666666;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:15px;
+	text-decoration:none;
+	}
+#RightReserved{
+	font-family:Tahoma;
+	font-size:10px;
+	color:black;
+	padding-left:650px;
+	padding-top:5px;
+
+}
+
+#DivContact
+{
+margin:auto auto auto 100px;
+	background:#F4F1EC;
+	width:450px;
+	border:thin black solid;
+	padding:10px;
+	
+}
+
+
+.ContactLabel
+{
+	text-align:right;
+	display:inline-block;
+	width:100px;
+	vertical-align:top;
+}
+
+.InputField
+{
+	width:300px;
+}
+
+.InputMultiLineField
+{
+	width:300px;	
+}
+
+.Button
+{
+	width:100px;
+	background-color:#3366FF;
+	 border-style:solid;
+	 height:30px;
+	color:yellow;
+	border-color:black;
+}
+
+#Logo
+{
+	height:71px;
+	width:131px;
+	padding-left:30px;
+	padding-top:60px;
+
+	
+}
