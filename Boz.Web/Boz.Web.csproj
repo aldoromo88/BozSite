@@ -15,7 +15,7 @@
     <AssemblyName>Boz.Web</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -121,7 +121,48 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="Contacto.html" />
+    <Content Include="Css\Default.css" />
+    <Content Include="Css\Images\bizpark.png" />
+    <Content Include="Css\Images\Contacto.jpg" />
+    <Content Include="Css\Images\Feather.jpg" />
+    <Content Include="Css\Images\LogoTransaparente.png" />
+    <Content Include="Css\Images\Productos.jpg" />
+    <Content Include="Css\Images\Servicios.jpg" />
+    <Content Include="Css\Images\_vti_cnf\bizpark.png" />
+    <Content Include="Css\Images\_vti_cnf\Contacto.jpg" />
+    <Content Include="Css\Images\_vti_cnf\Feather.jpg" />
+    <Content Include="Css\Images\_vti_cnf\LogoTransaparente.png" />
+    <Content Include="Css\Images\_vti_cnf\Productos.jpg" />
+    <Content Include="Css\Images\_vti_cnf\Servicios.jpg" />
+    <Content Include="Css\_vti_cnf\Default.css" />
+    <Content Include="default.html" />
+    <Content Include="defaultOld.html" />
     <Content Include="Global.asax" />
+    <Content Include="Nosotros.html" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\Vendors\JQuery\jquery-2.0.0.intellisense.js" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\Modules\Animations\BasicAnimations.js" />
+    <Content Include="Scripts\Modules\Contacto\Contacto_viewmodel.js" />
+    <Content Include="Scripts\Modules\Core\shell_viewmodel.js" />
+    <Content Include="Scripts\Modules\Inicio\Inicio_viewmodel.js" />
+    <Content Include="Scripts\Modules\Nosotros\Nosotros_viewmodel.js" />
+    <Content Include="Scripts\Modules\Servicios\Servicios_viewmodel.js" />
+    <Content Include="Scripts\Vendors\Sammy\sammy-0.7.4.js" />
+    <Content Include="Scripts\Vendors\Sammy\sammy-0.7.4.min.js" />
+    <Content Include="Scripts\Vendors\Helpers\css.js" />
+    <Content Include="Scripts\Vendors\Helpers\domReady.js" />
+    <Content Include="Scripts\Vendors\Helpers\text.js" />
+    <Content Include="Scripts\Vendors\Underscore\underscore.js" />
+    <Content Include="Scripts\Vendors\Underscore\underscore.min.js" />
+    <Content Include="Scripts\Vendors\RequireJs\r.js" />
+    <Content Include="Scripts\Vendors\RequireJs\require.js" />
+    <Content Include="Scripts\Vendors\Knockout\knockout-2.2.1.debug.js" />
+    <Content Include="Scripts\Vendors\Knockout\knockout-2.2.1.js" />
+    <Content Include="Scripts\Vendors\JQuery\jquery-2.0.0.js" />
+    <Content Include="Scripts\Vendors\JQuery\jquery-2.0.0.min.js" />
+    <Content Include="Servicios.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -130,6 +171,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
+    <Content Include="Scripts\Vendors\JQuery\jquery-2.0.0.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -150,12 +192,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost:13834/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
